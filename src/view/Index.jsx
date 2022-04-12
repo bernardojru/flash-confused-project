@@ -14,7 +14,7 @@ export function IndexPage() {
   useEffect(() => {
     fetch("http://localhost:3000/")
       .then(() => {
-        let time = 300;
+        let time = 1000;
         setTimeout(() => {
           setRemoveLoading(true);
         }, time);

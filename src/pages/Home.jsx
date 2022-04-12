@@ -11,7 +11,7 @@ export function HomePage() {
   useEffect(() => {
     fetch("http://localhost:3000/",)
       .then(() => {
-          let time = 9000
+          let time = 1000
           setTimeout(()=>{
               setRemoveLoading(true);
 
@@ -28,5 +28,3 @@ export function HomePage() {
     </OpenFree>
   );
 }
-
-// Flash message

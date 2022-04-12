@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const Global = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
@@ -16,8 +16,14 @@ export const Global = createGlobalStyle`
             width: 100vw;
             background-color: #eee;
             font-family: "Nunito", sans-serif;
-            /* background: linear-gradient(-90deg, #0dccff, #4760ff); */
 
-        } 
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+        }
+        
    }
-`
+`;
