@@ -1,5 +1,3 @@
-// import {Container} from './App'
-
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import { HomePage } from "./pages/Home";
